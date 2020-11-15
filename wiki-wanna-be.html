@@ -1,9 +1,13 @@
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
     <title>Wiki Wanna Be!</title>
     <style>
         * {
@@ -12,10 +16,10 @@
         }
 
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;
             color: #606060;
-            font-size: 14px;
-            text-align: center;
+            font-size: 18px;
+            text-align: justify;
         }
 
         .container {
@@ -23,19 +27,36 @@
             margin: 50px auto;
             padding: 0 15px;
             background: white;
+            font-size: 18px;
         }
 
         .post-image img {
             width: 100%;
             margin: 0 0 20px 0;
-            float: right;
-            margin-left: 15px;
+            border: #606060;
+            box-sizing: border-box;
+            box-shadow: 10px 15px 10px 0px;
         }
 
-        .post h1 {
+        .post-h1 {
             color: #222;
             font-weight: 600;
-            margin-bottom: 50px;
+            margin: 15px;
+            text-align: center;
+        }
+
+        .post-h3 {
+            color: #222;
+            font-weight: 600;
+            margin-bottom: 25px;
+            margin-top: 45px;
+        }
+
+        .post-h4 {
+            color: rgb(65, 62, 62);
+            font-weight: 600;
+            margin-bottom: 15px;
+            margin-top: 45px;
         }
 
         .post-meta {
@@ -64,8 +85,9 @@
         }
 
         p {
+
             line-height: 1.5;
-            margin-bottom: 1em;
+            margin: 10px;
         }
 
         @media (min-width: 768px) {
@@ -105,12 +127,15 @@
                 background: #dcdde2;
             }
 
+            hr {
+                margin-bottom: 25px;
+            }
         }
     </style>
 
 <body>
     <div>
-        <h1>Black hole</h1>
+        <h1 class="post-h1">Black hole</h1>
         <hr>
         <div class="container">
             <div class="post">
@@ -178,7 +203,7 @@
                     </p>
 
                     <div class="post-header">
-                        <h3>History</h3>
+                        <h3 class="post-h3">History</h3>
                         <hr>
                     </div>
 
@@ -207,7 +232,7 @@
                     </p>
 
 
-                    <h4>General relativity</h4>
+                    <h4 class="post-h4">General relativity</h4>
 
                     <div class="post-image">
                         <img src="https://news.harvard.edu/wp-content/uploads/2020/03/F1.large-2-1200x800.jpg">
@@ -257,7 +282,8 @@
                         Schwarzschild radius.
                     </p>
 
-                    <h4>Golden age</h4>
+                    <h4 class="post-h4">Golden age</h4>
+
                     <div class="post-image">
                         <img src="https://scx2.b-cdn.net/gfx/news/hires/2020/blackholeben.jpg">
                     </div>
@@ -301,7 +327,7 @@
                         known as Hawking radiation.
                     </p>
 
-                    <h4>Etymology</h4>
+                    <h4 class="post-h4">Etymology</h4>
 
                     <p>
                         John Michell used the term "dark star", and in the early 20th century, physicists used the
@@ -320,7 +346,7 @@
                     </p>
 
                     <div class="post-header">
-                        <h3>Properties and structure</h3>
+                        <h3 class="post-h3">Properties and structure</h3>
                         <hr>
                     </div>
 
@@ -357,7 +383,7 @@
                         hole information loss paradox.
                     </p>
 
-                    <h4>Physical properties</h4>
+                    <h4 class="post-h4">Physical properties</h4>
 
                     <p>
                         The simplest static black holes have mass but neither electric charge nor angular momentum.
@@ -394,7 +420,7 @@
                         allowed value. That uncharged limit is
                     </p>
 
-                    <h4>Black hole classifications</h4>
+                    <h4 class="post-h4">Black hole classifications</h4>
                     <div class="classifications">
                         <table>
                             <tr>
@@ -424,7 +450,7 @@
                             </tr>
                         </table>
                     </div>
-                    <h4>Event horizon</h4>
+                    <h4 class="post-h4">Event horizon</h4>
                     <div class="post-image">
                         <img
                             src="https://images.ctfassets.net/cnu0m8re1exe/ItXZRDFmlWOvJKgKWQaH3/480e158ed9b23ec1c89e0448b1ac4fe2/ScreenShot20190808at45846PM.png?w=650&h=433&fit=fill">
@@ -462,7 +488,7 @@
                         spherical, while for rotating black holes the event horizon is oblate.
                     </p>
 
-                    <h4>Singularity</h4>
+                    <h4 class="post-h4">Singularity</h4>
                     <p>
                         At the center of a black hole, as described by general relativity, may lie a gravitational
                         singularity, a region where the spacetime curvature becomes infinite.For a non-rotating
@@ -498,7 +524,7 @@
                         singularities.
                     </p>
 
-                    <h4>Ergosphere</h4>
+                    <h4 class="post-h4">Ergosphere</h4>
                     <div class="post-image">
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/0/00/Ergosphere_and_event_horizon_of_a_rotating_black_hole_%28no_animation%29.gif">
@@ -525,7 +551,7 @@
                     </p>
 
                     <div class="post-header">
-                        <h3>Formation and evolution</h3>
+                        <h3 class="post-h3">Formation and evolution</h3>
                         <hr>
                     </div>
                     <div class="post-image">
@@ -554,7 +580,7 @@
                         collapse of heavy objects such as stars, but they can also in theory be formed by other
                         processes.
                     </p>
-                    <h4>Gravitational collapse</h4>
+                    <h4 class="post-h4">Gravitational collapse</h4>
                     <div class="post-image">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Core_collapse_scenario.png">
                     </div>
@@ -598,7 +624,7 @@
                         material seems to become dimmer and increasingly red-shifted, eventually fading away.
                     </p>
 
-                    <h4>Primordial black holes and the Big Bang</h4>
+                    <h4 class="post-h4">Primordial black holes and the Big Bang</h4>
                     <p>
                         Gravitational collapse requires great density. In the current epoch of the universe these high
                         densities are found only in stars, but in the early universe shortly after the Big Bang
@@ -615,7 +641,7 @@
                         gravitational collapse of objects of relatively constant size, such as stars, do not necessarily
                         apply in the same way to rapidly expanding space such as the Big Bang.
                     </p>
-                    <h4>High-energy collisions</h4>
+                    <h4 class="post-h4">High-energy collisions</h4>
                     <div class="post-image">
                         <img
                             src="https://naked-science.ru/wp-content/uploads/2016/04/article_vp1_Htautau_1muon1electron_run204153_evt35369265.jpg">
@@ -639,7 +665,7 @@
                         seconds, posing no threat to the Earth.
                     </p>
 
-                    <h4>Growth</h4>
+                    <h4 class="post-h4">Growth</h4>
                     <p>
                         Once a black hole has formed, it can continue to grow by absorbing additional matter. Any black
                         hole will continually absorb gas and interstellar dust from its surroundings. This growth
@@ -652,7 +678,7 @@
                         also been proposed as the origin of some intermediate-mass black holes.
                     </p>
 
-                    <h4>Evaporation</h4>
+                    <h4 class="post-h4">Evaporation</h4>
                     <p>
                         In 1974, Hawking predicted that black holes are not entirely black but emit small amounts of
                         thermal radiation at a temperature ℏ c<sup>3</sup>/(8 π G M k<sub>B</sub>);this effect has
@@ -703,7 +729,7 @@
                     </p>
 
                     <div class="post-header">
-                        <h3>Observational evidence</h3>
+                        <h3 class="post-h3">Observational evidence</h3>
                         <hr>
                     </div>
                     <p>
@@ -747,10 +773,10 @@
                     </p>
 
                     <div class="post-header">
-                        <h3>Open questions</h3>
+                        <h3 class="post-h3">Open questions</h3>
                         <hr>
                     </div>
-                    <h4>Entropy and thermodynamics</h4>
+                    <h4 class="post-h4">Entropy and thermodynamics</h4>
                     <p>
                         In 1971, Hawking showed under general conditions that the total area of the event
                         horizons of any collection of classical black holes can never decrease, even if they collide and
@@ -790,7 +816,7 @@
                         loop quantum gravity.
                     </p>
 
-                    <h4>Information loss paradox</h4>
+                    <h4 class="post-h4">Information loss paradox</h4>
                     <p>
                         Because a black hole has only a few internal parameters, most of the information about the
                         matter that went into forming the black hole is lost. Regardless of the type of matter which
