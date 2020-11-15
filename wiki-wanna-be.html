@@ -28,12 +28,14 @@
         .post-image img {
             width: 100%;
             margin: 0 0 20px 0;
+            float: right;
+            margin-left: 15px;
         }
 
         .post h1 {
             color: #222;
             font-weight: 600;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
         }
 
         .post-meta {
@@ -54,7 +56,7 @@
             width: 6px;
             height: 6px;
             border-radius: 50%;
-            background: #666;
+            background: lime;
             position: absolute;
             top: 50%;
             right: 10px;
@@ -87,9 +89,24 @@
                 margin-left: -30px;
             }
 
+            th {
+                font-weight: normal;
+                color: rgb(0, 0, 0);
+                padding: 10px 15px;
+            }
+
+            td {
+                color: rgb(70, 70, 71);
+                border-top: 1px solid #bdbec4;
+                padding: 10px 15px;
+            }
+
+            tr:nth-child(2n) {
+                background: #dcdde2;
+            }
+
         }
     </style>
-</head>
 
 <body>
     <div>
@@ -164,7 +181,8 @@
                         <h3>History</h3>
                         <hr>
                     </div>
-                    <br>
+
+                    <div></div>
 
                     <div class="post-image">
                         <img src="https://earthsky.org/upl/2016/01/intermediate-mass-black-hole.jpg">
@@ -189,9 +207,7 @@
                     </p>
 
 
-                    <h4>General relativity</h4> <br>
-
-                    <!--i know that using <br> is not good and we should avoid it, bit i am simply to laisy to change it by css, sorry. -->
+                    <h4>General relativity</h4>
 
                     <div class="post-image">
                         <img src="https://news.harvard.edu/wp-content/uploads/2020/03/F1.large-2-1200x800.jpg">
@@ -241,7 +257,7 @@
                         Schwarzschild radius.
                     </p>
 
-                    <h4>Golden age</h4> <br>
+                    <h4>Golden age</h4>
                     <div class="post-image">
                         <img src="https://scx2.b-cdn.net/gfx/news/hires/2020/blackholeben.jpg">
                     </div>
@@ -285,7 +301,7 @@
                         known as Hawking radiation.
                     </p>
 
-                    <h4>Etymology</h4> <br>
+                    <h4>Etymology</h4>
 
                     <p>
                         John Michell used the term "dark star", and in the early 20th century, physicists used the
@@ -307,7 +323,7 @@
                         <h3>Properties and structure</h3>
                         <hr>
                     </div>
-                    <br>
+
                     <div class="post-image">
                         <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/bh_labeled.jpg">
                     </div>
@@ -341,7 +357,7 @@
                         hole information loss paradox.
                     </p>
 
-                    <h4>Physical properties</h4> <br>
+                    <h4>Physical properties</h4>
 
                     <p>
                         The simplest static black holes have mass but neither electric charge nor angular momentum.
@@ -378,7 +394,7 @@
                         allowed value. That uncharged limit is
                     </p>
 
-                    <h4>Black hole classifications</h4> <br>
+                    <h4>Black hole classifications</h4>
                     <div class="classifications">
                         <table>
                             <tr>
@@ -408,7 +424,7 @@
                             </tr>
                         </table>
                     </div>
-                    <h4>Event horizon</h4> <br>
+                    <h4>Event horizon</h4>
                     <div class="post-image">
                         <img
                             src="https://images.ctfassets.net/cnu0m8re1exe/ItXZRDFmlWOvJKgKWQaH3/480e158ed9b23ec1c89e0448b1ac4fe2/ScreenShot20190808at45846PM.png?w=650&h=433&fit=fill">
@@ -446,7 +462,7 @@
                         spherical, while for rotating black holes the event horizon is oblate.
                     </p>
 
-                    <h4>Singularity</h4> <br>
+                    <h4>Singularity</h4>
                     <p>
                         At the center of a black hole, as described by general relativity, may lie a gravitational
                         singularity, a region where the spacetime curvature becomes infinite.For a non-rotating
@@ -482,7 +498,7 @@
                         singularities.
                     </p>
 
-                    <h4>Ergosphere</h4> <br>
+                    <h4>Ergosphere</h4>
                     <div class="post-image">
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/0/00/Ergosphere_and_event_horizon_of_a_rotating_black_hole_%28no_animation%29.gif">
@@ -511,7 +527,7 @@
                     <div class="post-header">
                         <h3>Formation and evolution</h3>
                         <hr>
-                    </div> <br>
+                    </div>
                     <div class="post-image">
                         <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/08/Triple_1300Lede.jpg">
                     </div>
@@ -538,7 +554,7 @@
                         collapse of heavy objects such as stars, but they can also in theory be formed by other
                         processes.
                     </p>
-                    <h4>Gravitational collapse</h4> <br>
+                    <h4>Gravitational collapse</h4>
                     <div class="post-image">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Core_collapse_scenario.png">
                     </div>
@@ -582,7 +598,7 @@
                         material seems to become dimmer and increasingly red-shifted, eventually fading away.
                     </p>
 
-                    <h4>Primordial black holes and the Big Bang</h4> <br>
+                    <h4>Primordial black holes and the Big Bang</h4>
                     <p>
                         Gravitational collapse requires great density. In the current epoch of the universe these high
                         densities are found only in stars, but in the early universe shortly after the Big Bang
@@ -599,7 +615,7 @@
                         gravitational collapse of objects of relatively constant size, such as stars, do not necessarily
                         apply in the same way to rapidly expanding space such as the Big Bang.
                     </p>
-                    <h4>High-energy collisions</h4> <br>
+                    <h4>High-energy collisions</h4>
                     <div class="post-image">
                         <img
                             src="https://naked-science.ru/wp-content/uploads/2016/04/article_vp1_Htautau_1muon1electron_run204153_evt35369265.jpg">
@@ -623,7 +639,7 @@
                         seconds, posing no threat to the Earth.
                     </p>
 
-                    <h4>Growth</h4> <br>
+                    <h4>Growth</h4>
                     <p>
                         Once a black hole has formed, it can continue to grow by absorbing additional matter. Any black
                         hole will continually absorb gas and interstellar dust from its surroundings. This growth
@@ -636,7 +652,7 @@
                         also been proposed as the origin of some intermediate-mass black holes.
                     </p>
 
-                    <h4>Evaporation</h4> <br>
+                    <h4>Evaporation</h4>
                     <p>
                         In 1974, Hawking predicted that black holes are not entirely black but emit small amounts of
                         thermal radiation at a temperature ℏ c<sup>3</sup>/(8 π G M k<sub>B</sub>);this effect has
@@ -689,7 +705,7 @@
                     <div class="post-header">
                         <h3>Observational evidence</h3>
                         <hr>
-                    </div> <br>
+                    </div>
                     <p>
                         By nature, black holes do not themselves emit any electromagnetic radiation other than the
                         ypothetical Hawking radiation, so astrophysicists searching for black holes must generally rely
@@ -733,8 +749,8 @@
                     <div class="post-header">
                         <h3>Open questions</h3>
                         <hr>
-                    </div> <br>
-                    <h4>Entropy and thermodynamics</h4> <br>
+                    </div>
+                    <h4>Entropy and thermodynamics</h4>
                     <p>
                         In 1971, Hawking showed under general conditions that the total area of the event
                         horizons of any collection of classical black holes can never decrease, even if they collide and
@@ -774,7 +790,7 @@
                         loop quantum gravity.
                     </p>
 
-                    <h4>Information loss paradox</h4> <br>
+                    <h4>Information loss paradox</h4>
                     <p>
                         Because a black hole has only a few internal parameters, most of the information about the
                         matter that went into forming the black hole is lost. Regardless of the type of matter which
