@@ -1,0 +1,111 @@
+/*<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&display=swap" rel="stylesheet"> 
+font-family: 'Big Shoulders Stencil Display', cursive;
+*/
+
+.post-h1 {
+  background: #ffffff;
+  padding: 25px 25px;
+  text-align: center;
+}
+.post-h1 h1 {
+  font-family: "Big Shoulders Stencil Display", cursive;
+  position: relative;
+  color: #a6d2e7;
+  font-size: 55px;
+  font-weight: normal;
+  padding: 10px 20px 10px 20px;
+  border-top: 5px solid;
+  border-left: 5px solid;
+  display: inline-block;
+}
+.post-h1 h1:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  left: -25px;
+  border: 5px solid #a6d2e7;
+  box-sizing: border-box;
+}
+@media (max-width: 450px) {
+  .post-h1 h1 {
+    font-size: 55px;
+  }
+  .post-h1 h1:before {
+    width: 20px;
+    height: 20px;
+    top: -20px;
+    left: -20px;
+  }
+}
+
+.post-h2 {
+  background: #ffffff;
+  padding: 50px;
+  text-align: center;
+}
+.post-h2 h2 {
+  font-family: "Big Shoulders Stencil Display", cursive;
+  position: relative;
+  color: #fc7574;
+  font-size: 50px;
+  font-weight: normal;
+  padding: 10px 0;
+  display: inline-block;
+}
+.post-h2 h2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 200%;
+  border-radius: 50%/30%;
+  border: 6px solid #a6d2e7;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+@media (max-width: 420px) {
+  .post-h2 h2 {
+    font-size: 45px;
+  }
+}
+
+.post-h3 {
+  color: white;
+  text-shadow: 1px 1px #a6d2e7, 1px -1px #a6d2e7, -1px 1px #a6d2e7,
+    -1px -1px #a6d2e7, 3px 3px 6px #fc7574;
+  font-size: 40px;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  text-align: center;
+}
+
+.post-h4 {
+  background: #ffffff;
+  color: white;
+  text-shadow: -2px -2px 0 #000000, 2px -2px 0 #fc7574, -2px 2px 0 #a6d2e7, 2px 2px 0 #000000, 4px 4px 0 white, 5px 5px 0 white, 6px 6px 0 white;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 35px;
+  font-family: "Big Shoulders Stencil Display", cursive;
+}
+
+.post-list {
+  list-style: none;
+  border-left: 10px solid #fc7574;
+  padding: 0;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  font-size: 18px;
+}
+.post-list li {
+  padding: 10px;
+}
+.post-list li:nth-child(odd) {
+  background: #a6d2e74b;
+}
+.post-list li:nth-child(even) {
+  background: white;
+}
